@@ -9,19 +9,19 @@
 
 ## Cloud Billing Integrations
 
-* [Kubecost Cloud: Cloud Billing Integrations](cloud-billing-integrations/README.md)
+* [Cloud Billing Integrations](cloud-billing-integrations/README.md)
   * [Kubecost Cloud AWS Integration](cloud-billing-integrations/aws-cloud-integration.md)
   * [Kubecost Cloud GCP Integration](cloud-billing-integrations/gcp-cloud-integration.md)
   * [Kubecost Cloud Azure Integration](cloud-billing-integrations/azure-cloud-integration.md)
 
-## Kubecost Cloud UI
-* [Using the Kubecost Cloud UI](using-the-kubecost-cloud-ui/README.md)
-  * [Kubecost Cloud: Allocations Dashboard](using-the-kubecost-cloud-ui/allocations.md)
-  * [Kubecost Cloud: Assets Dashboard](using-the-kubecost-cloud-ui/assets.md)
-  * [Kubecost Cloud: Cloud Cost Explorer](using-the-kubecost-cloud-ui/cloud-cost-explorer.md)
-  * [Kubecost Cloud: Reports Dashboard](using-the-kubecost-cloud-ui/reports.md)
-  * [Kubecost Cloud: Savings](using-the-kubecost-cloud-ui/savings/README.md)
-    * [Kubecost Cloud: Cluster Right-Sizing Recommendations](using-the-kubecost-cloud-ui/savings/cluster-right-sizing.md)
-    * [Kubecost Cloud: Request Right-Sizing Recommendations](using-the-kubecost-cloud-ui/savings/request-right-sizing.md)
-    * [Kubecost Cloud: Abandoned Workloads](using-the-kubecost-cloud-ui/savings/abandoned-workloads.md)
-  * [Kubecost Cloud: Alerts](using-the-kubecost-cloud-ui/alerts.md)
+## Using Kubecost Cloud
+* [Kubecost Cloud Overview](using-the-kubecost-cloud-ui/README.md)
+  * [Allocations](using-the-kubecost-cloud-ui/allocations.md)
+  * [Assets Dashboard](using-the-kubecost-cloud-ui/assets.md)
+  * [Cloud Cost Explorer](using-the-kubecost-cloud-ui/cloud-cost-explorer.md)
+  * [Reports](using-the-kubecost-cloud-ui/reports.md)
+  * [Savings](using-the-kubecost-cloud-ui/savings/README.md)
+    * [Cluster Right-Sizing Recommendations](using-the-kubecost-cloud-ui/savings/cluster-right-sizing.md)
+    * [Request Right-Sizing Recommendations](using-the-kubecost-cloud-ui/savings/request-right-sizing.md)
+    * [Abandoned Workloads](using-the-kubecost-cloud-ui/savings/abandoned-workloads.md)
+  * [Alerts](using-the-kubecost-cloud-ui/alerts.md)
