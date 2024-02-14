@@ -2,6 +2,8 @@
 
 The Abandoned Workloads page can detect workloads which have not sent or received a meaningful rate of traffic over a configurable duration.
 
+![Abandoned Workloads](/images/abandonedworkloads.png)
+
 You can access the Abandoned Workloads page by selecting _Savings_ in the left navigation, then selecting _Remedy abandoned workloads_.
 
 The Abandoned Workloads page will display front and center an estimated savings amount per month based on a number of detected workloads considered abandoned, defined by two values:

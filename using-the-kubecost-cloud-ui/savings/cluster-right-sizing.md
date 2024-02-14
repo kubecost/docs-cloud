@@ -2,6 +2,8 @@
 
 Kubecost Cloud can provide recommendations for right-sizing your clusters to ensure they are configured in the most cost-effective way. Recommendations are available for any and all clusters.
 
+![Cluster Sizing Recommendations](/images/clustersizing.png)
+
 ## Viewing cluster recommendations
 
 You can access cluster right-sizing by selecting *Savings* in the left navigation, then select the *Right-size your cluster nodes* panel.

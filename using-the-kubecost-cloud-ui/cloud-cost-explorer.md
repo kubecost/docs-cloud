@@ -2,6 +2,8 @@
 
 The Cloud Cost Explorer is a dashboard which provides visualization and filtering of your cloud spending. This dashboard includes the costs for all assets in your connected cloud accounts by pulling from those providers' Cost and Usage Reports (CURs) or other cloud billing reports.
 
+![Cloud Cost Explorer](/images/cloudcosts.png)
+
 For help on integrating one or several cloud service providers (CSPs), see the corresponding documentation:
 
 * [Kubecost Cloud AWS Integration](/cloud-billing-integrations/aws-cloud-integration.md)

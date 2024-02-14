@@ -2,6 +2,8 @@
 
 The Allocations page allows you to aggregate cost by namespace, deployment, service, and other native Kubernetes concepts. While selecting _Single Aggregation_, you will only be able to categorize by one concept at a time. While selecting _Multi Aggregation_, you will be able to filter for multiple concepts at the same time.
 
+![Allocations](/images/allocations.png)
+
 {% hint style="info" %}
 Service in this context refers to a Kubernetes object that exposes an interface to outside consumers, not a cloud service.
 {% endhint %}

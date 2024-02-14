@@ -4,7 +4,7 @@ Alerts allow teams to receive updates on real-time Kubernetes spend. This doc gi
 
 Currently, only spend changes in allocation costs are supported in Kubecost Cloud. This alert type detects sudden changes in allocation spending (spending relating to any Kubernetes objects) when compared to a previous interval.
 
-![Alerts page](/images/kc-cloud-alerts.png)
+![Alerts page](/images/alerts.png)
 
 ## Creating an alert
 

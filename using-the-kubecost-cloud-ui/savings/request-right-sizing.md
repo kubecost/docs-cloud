@@ -2,6 +2,8 @@
 
 Kubecost Cloud can provide recommendations for right-sizing your container requests to ensure they are as cost-effective as possible. Recommendations are provided for all namespaces within your cluster.
 
+![Request Right-Sizing Recommendations](/images/requestsizing.png)
+
 ## Viewing request recommendations
 
 You can access request right-sizing by selecting _Savings_ in the left navigation, then select the _Right-size your container requests_ panel.
