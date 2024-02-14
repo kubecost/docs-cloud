@@ -17,7 +17,7 @@
 ## Using Kubecost Cloud
 * [Kubecost Cloud Overview](using-kubecost-cloud/README.md)
   * [Allocations](using-kubecost-cloud/allocations.md)
-  * [Assets Dashboard](using-kubecost-cloud/assets.md)
+  * [Assets](using-kubecost-cloud/assets.md)
   * [Cloud Cost Explorer](using-kubecost-cloud/cloud-cost-explorer.md)
   * [Reports](using-kubecost-cloud/reports.md)
   * [Savings](using-kubecost-cloud/savings/README.md)
