@@ -10,9 +10,9 @@
 ## Cloud Billing Integrations
 
 * [Cloud Billing Integrations](cloud-billing-integrations/README.md)
-  * [Kubecost Cloud AWS Integration](cloud-billing-integrations/aws-cloud-integration.md)
-  * [Kubecost Cloud GCP Integration](cloud-billing-integrations/gcp-cloud-integration.md)
-  * [Kubecost Cloud Azure Integration](cloud-billing-integrations/azure-cloud-integration.md)
+  * [AWS Cloud Integration](cloud-billing-integrations/aws-cloud-integration.md)
+  * [GCP Cloud Integration](cloud-billing-integrations/gcp-cloud-integration.md)
+  * [Azure Cloud Integration](cloud-billing-integrations/azure-cloud-integration.md)
 
 ## Using Kubecost Cloud
 * [Kubecost Cloud Overview](using-kubecost-cloud/README.md)
