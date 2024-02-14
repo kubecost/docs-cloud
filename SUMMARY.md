@@ -16,12 +16,12 @@
 
 ## Kubecost Cloud UI
 * [Using the Kubecost Cloud UI](using-the-kubecost-cloud-ui/README.md)
-  * [Kubecost Cloud: Allocations Dashboard](using-the-kubecost-cloud-ui/cloud-allocations-dashboard.md)
+  * [Kubecost Cloud: Allocations Dashboard](using-the-kubecost-cloud-ui/allocations.md)
   * [Kubecost Cloud: Assets Dashboard](using-the-kubecost-cloud-ui/assets.md)
   * [Kubecost Cloud: Cloud Cost Explorer](using-the-kubecost-cloud-ui/cloud-cost-explorer.md)
   * [Kubecost Cloud: Reports Dashboard](using-the-kubecost-cloud-ui/reports.md)
-  * [Kubecost Cloud: Savings](using-the-kubecost-cloud-ui/savings.md)
-    * [Kubecost Cloud: Cluster Right-Sizing Recommendations](using-the-kubecost-cloud-ui/cluster-right-sizing.md)
-    * [Kubecost Cloud: Request Right-Sizing Recommendations](using-the-kubecost-cloud-ui/request-right-sizing.md)
-    * [Kubecost Cloud: Abandoned Workloads](using-the-kubecost-cloud-ui/abandoned-workloads.md)
+  * [Kubecost Cloud: Savings](using-the-kubecost-cloud-ui/savings/README.md)
+    * [Kubecost Cloud: Cluster Right-Sizing Recommendations](using-the-kubecost-cloud-ui/savings/cluster-right-sizing.md)
+    * [Kubecost Cloud: Request Right-Sizing Recommendations](using-the-kubecost-cloud-ui/savings/request-right-sizing.md)
+    * [Kubecost Cloud: Abandoned Workloads](using-the-kubecost-cloud-ui/savings/abandoned-workloads.md)
   * [Kubecost Cloud: Alerts](using-the-kubecost-cloud-ui/alerts.md)

@@ -26,7 +26,7 @@ Selecting _Edit Report_ will provide more options of filtering and visualizing y
 
 #### Idle costs
 
-For an overview of what idle costs are and how they are calculated, see the [bottom of the page](/kubecost-cloud/using-the-kubecost-cloud-ui/cloud-allocations-dashboard.md#idle).
+For an overview of what idle costs are and how they are calculated, see the [bottom of the page](allocations.md#idle).
 
 Customize how you wish idle costs to be displayed in your report chart:
 
