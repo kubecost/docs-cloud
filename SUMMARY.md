@@ -19,6 +19,7 @@
   * [Allocations](using-kubecost-cloud/allocations.md)
   * [Assets](using-kubecost-cloud/assets.md)
   * [Cloud Cost Explorer](using-kubecost-cloud/cloud-cost-explorer.md)
+  * [Collections](using-kubecost-cloud/collections.md)
   * [Reports](using-kubecost-cloud/reports.md)
   * [Savings](using-kubecost-cloud/savings/README.md)
     * [Cluster Right-Sizing Recommendations](using-kubecost-cloud/savings/cluster-right-sizing.md)
