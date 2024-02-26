@@ -2,6 +2,15 @@
 
 Kubecost Cloud does not release updates on a scheduled timeline like our self-hosted product. Instead, Kubecost Cloud product updates will be documented here periodically.
 
+## 2/26/24
+
+### New Features:
+
+* Collections page allows users to create a single report containing both Kubernetes and cloud Costs
+* Updated left navigation includes color palette and moves dashboards under 'Monitor'
+* Kubecost Cloud agent now leverages 3rd party verified TLS certificates instead of self-signed certificates
+* Improved accuracy of Load Balancer and Persistent Volume costs by reconciling each individual entity against cloud costs.
+
 ## 12/21/23
 
 ### New Features:
