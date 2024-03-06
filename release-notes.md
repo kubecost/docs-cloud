@@ -2,6 +2,11 @@
 
 Kubecost Cloud does not release updates on a scheduled timeline like our self-hosted product. Instead, Kubecost Cloud product updates will be documented here periodically.
 
+## 3/6/24
+
+### Bug Fixes:
+* Fixed issue where Cloud Costs without resource IDs would be under-counted within a Collection
+
 ## 2/26/24
 
 ### New Features:
