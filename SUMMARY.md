@@ -26,3 +26,7 @@
     * [Request Right-Sizing Recommendations](using-kubecost-cloud/savings/request-right-sizing.md)
     * [Abandoned Workloads](using-kubecost-cloud/savings/abandoned-workloads.md)
   * [Alerts](using-kubecost-cloud/alerts.md)
+
+## Kubecost Cloud APIs
+* [API Directory](apis/api-directory.md)
+* [Accessing Endpoints](apis/accessing-endpoints.md)

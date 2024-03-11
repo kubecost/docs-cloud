@@ -8,7 +8,7 @@ This doc will show you how to register for Kubecost Cloud, invite members to and
 
 You can create a new user account in moments. On the [login page](http://app.kubecost.com), provide a Name, Email, and Password to register. You can also register using an active Google, Microsoft, Okta, or GitHub account via SSO.
 
-## **Managing teams**
+## Managing teams
 
 You can access information about your team by selecting _Settings_ from the left navigation. You should see all teams you either own or are a member of. Here you will be able to create a team, manage existing members, and invite new members.
 
