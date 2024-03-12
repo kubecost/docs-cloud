@@ -14,6 +14,7 @@ The following APIs are available in Kubecost Cloud:
 
 ## Savings APIs
 
-* Request Right-Sizing Recommendations
-* Cluster Right-Sizing Recommendations
-* Abandoned Workloads
+
+* [Cluster Right-Sizing Recommendations](/apis/api-directory/cluster-right-sizing-api.md)
+* [Request Right-Sizing Recommendations](/apis/api-directory/request-right-sizing-api.md)
+* [Abandoned Workloads](/apis/api-directory/abandoned-workloads-api.md)

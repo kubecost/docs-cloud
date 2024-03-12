@@ -29,5 +29,7 @@
 
 ## Kubecost Cloud APIs
 * [API Directory](apis/api-directory/api-directory.md)
+  * [Cluster Right-Sizing Recommendation API](apis/api-directory/cluster-right-sizing-api.md)
+  * [Request Right-Sizing Recommendation API](apis/api-directory/request-right-sizing-api.md)
   * [Abandoned Workloads API](apis/api-directory/abandoned-workloads-api.md)
 * [Accessing Endpoints](apis/accessing-endpoints.md)
