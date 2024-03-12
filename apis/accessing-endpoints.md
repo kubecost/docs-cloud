@@ -6,7 +6,8 @@ Kubecost Cloud has select endpoints available for API access. The default API ac
 
 ### Step 1: Generating an API key value
 
-To get started, visit *Settings* in the Kubecost Cloud UI, then under 'My API Key', select *Generate Key*. A key value will generate in a text box with a lifespan of one month. Save this value, as it will never be retrievable later. Kubecost will not save this value. You can remove the key value, and consequently access to it, by selecting *Remove Key*. This will not provide a warning after being selected, so be careful to not permanently delete your key.
+To get started, visit *Settings* in the Kubecost Cloud UI, then under 'My API Key', select *Generate Key*. A key value will generate in a text box with a lifespan of one month. Save this value, as it will not be retrievable later. Only one key can exist at any given time for a given user. Remove the existing key to generate a new one. 
+
 
 ### Step 2: Generating a personal web token
 
