@@ -38,5 +38,5 @@ curl --location 'https://api.stage.kceng.dev/query/allocation/query?window=7d&ag
 --header 'Team-Id: <TEAM_ID>'
 ```
 
-For a complete list of Kubecost Cloud APIs, see our [API Directory](/apis/api-directory.md).
+For a complete list of Kubecost Cloud APIs, see our [API Directory](/apis/api-directory/api-directory.md).
 
