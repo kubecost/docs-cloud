@@ -34,7 +34,8 @@ curl --location 'https://auth.stage.kceng.dev/api/user' \
 Finally, you need to authenticate your token. Use the following command:
 
 ```
-curl --location 'https://api.stage.kceng.dev/query/allocation/query?window=7d&aggregate=cluster&idleByNode=false&idle=false' \
+curl --location 'https://app.kubecost.com/query/allocation/query?window=7d&aggregate=cluster&idleByNode=false&idle=false' \
+
 --header 'Authorization: Bearer <TOKEN_VALUE>' \
 --header 'Team-Id: <TEAM_ID>'
 ```
