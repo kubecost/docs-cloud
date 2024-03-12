@@ -28,5 +28,6 @@
   * [Alerts](using-kubecost-cloud/alerts.md)
 
 ## Kubecost Cloud APIs
-* [API Directory](apis/api-directory.md)
+* [API Directory](apis/api-directory/api-directory.md)
+  * [Abandoned Workloads API](apis/api-directory/abandoned-workloads-api.md)
 * [Accessing Endpoints](apis/accessing-endpoints.md)
