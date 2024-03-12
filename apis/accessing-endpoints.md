@@ -13,7 +13,8 @@ To get started, visit *Settings* in the Kubecost Cloud UI, then under 'My API Ke
 With your generated API key value, run the following command to generate a personal access token:
 
 ```
-curl --location --request POST 'https://app.kubecost.com/api/token' \
+curl --location --request POST 'https://auth.app.kubecost.com/api/token' \
+
 --header 'X-API-Key: <KEY_VALUE>'
 ```
 
