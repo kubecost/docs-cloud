@@ -25,7 +25,8 @@ The generated token is short-lived and expires after ten minutes. This token can
 You will also need to retrieve your team ID value. This is a value associated with your [Kubecost Cloud team](/installation-and-onboarding.md#managing-teams). Run the following command with your generated token:
 
 ```
-curl --location 'https://auth.stage.kceng.dev/api/user' \
+curl --location 'https://auth.app.kubecost.com/api/user' \
+
 --header 'Authorization: Bearer <TOKEN_VALUE>'
 ```
 
