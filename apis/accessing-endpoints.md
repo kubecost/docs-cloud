@@ -24,7 +24,7 @@ The generated token is short-lived and expires after ten minutes. This token can
 
 ### Step 3: Generating your team ID value
 
-You will also need to retrieve your team ID value. This is a value associated with your [Kubecost Cloud team](/installation-and-onboarding.md#managing-teams). You can find this ID at the bottom of the Settings page, in the Team Info section.
+You will also need to retrieve your team ID value. This is a value associated with your [Kubecost Cloud team](/installation-and-onboarding.md#managing-teams). You can find this ID at the bottom of *Settings*, in the 'Team Info' section.
 
 ### Step 4: Authenticating
 
