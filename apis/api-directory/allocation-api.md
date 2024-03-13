@@ -36,6 +36,7 @@ Refers to the number of line items per page. You must also set `accumulate=true`
 {% swagger-parameter in="path" name="filter" type="string" required="false" %}
 Filter your results by any category which you can aggregate by, can support multiple filterable items in the same category in a comma-separated list. For example, to filter results by clusters A and B, use `filter=cluster:clusterA,clusterB` See our [Filter Parameters](/apis/filter-parameters.md) doc for a complete explanation of how to use filters and what categories are supported.
 {% endswagger-parameter %}
+{% endswagger %}
 
 
 
