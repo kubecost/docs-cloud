@@ -1,6 +1,7 @@
 # Accessing API Endpoints
 
-Kubecost Cloud has select endpoints available for API access. The default API access endpoint will be `api.app.kubecost.com`. Obtaining access involves generating an API key value, which is then used to generate a personal access token, which is used to retrieve your team ID value. The token and team ID value will then allow you to make queries.
+Kubecost Cloud has select endpoints available for API access. The default API access endpoint will be `api.app.kubecost.com`. Obtaining access involves generating an API key value, which is then used to generate a personal access token. The token, together with your team ID, will then allow you to make queries.
+
 
 ## Access tutorial
 
