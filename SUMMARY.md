@@ -15,6 +15,7 @@
   * [Azure Cloud Integration](cloud-billing-integrations/azure-cloud-integration.md)
 
 ## Using Kubecost Cloud
+
 * [Kubecost Cloud Overview](using-kubecost-cloud/README.md)
   * [Allocations](using-kubecost-cloud/allocations.md)
   * [Assets](using-kubecost-cloud/assets.md)
@@ -28,8 +29,13 @@
   * [Alerts](using-kubecost-cloud/alerts.md)
 
 ## Kubecost Cloud APIs
+
 * [API Directory](apis/api-directory/api-directory.md)
+  * [Allocation API](apis/api-directory/allocation-api.md)
+  * [Assets API](apis/api-directory/assets-api.md)
+  * [Cloud Cost API](apis/api-directory/cloud-cost-api.md)
   * [Cluster Right-Sizing Recommendation API](apis/api-directory/cluster-right-sizing-api.md)
   * [Request Right-Sizing Recommendation API](apis/api-directory/request-right-sizing-api.md)
   * [Abandoned Workloads API](apis/api-directory/abandoned-workloads-api.md)
 * [Accessing Endpoints](apis/accessing-endpoints.md)
+* [Filter Parameters](apis/filter-parameters.md)

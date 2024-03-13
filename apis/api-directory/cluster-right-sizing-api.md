@@ -26,3 +26,7 @@ Whether you want to allow shared core node types to be included in your recommen
 {% swagger-parameter in="path" name="architecture" type="string" %}
 Accepts `x86` or `ARM`. Currently, `ARM` is only supported on AWS clusters.
 {% endswagger-parameter %}
+
+{% swagger-parameter in="path" type="boolean" name="spotNodes" %}
+Whether you want to allow Spot node types to be included in your recommendation. Default is `false`.
+{% endswagger-parameter %}

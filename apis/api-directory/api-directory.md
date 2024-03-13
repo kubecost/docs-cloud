@@ -8,15 +8,15 @@ The following APIs are available in Kubecost Cloud:
 
 ## Monitoring APIs
 
-* Allocation
-* Assets
-* Cloud Costs
+* [Allocation API](/apis/api-directory/allocation-api.md)
+* [Assets API](/apis/api-directory/assets-api.md)
+* [Cloud Cost API](/apis/api-directory/cloud-cost-api.md)
 
 ## Savings APIs
 
-* [Cluster Right-Sizing Recommendations](/apis/api-directory/cluster-right-sizing-api.md)
-* [Request Right-Sizing Recommendations](/apis/api-directory/request-right-sizing-api.md)
-* [Abandoned Workloads](/apis/api-directory/abandoned-workloads-api.md)
+* [Cluster Right-Sizing Recommendations API](/apis/api-directory/cluster-right-sizing-api.md)
+* [Request Right-Sizing Recommendations API](/apis/api-directory/request-right-sizing-api.md)
+* [Abandoned Workloads API](/apis/api-directory/abandoned-workloads-api.md)
 
 ## Using Kubecost APIs
 
