@@ -22,7 +22,7 @@ When set to `false`, this endpoint returns daily time series data vs cumulative 
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="limit" type="int" required="false" %}
-Refers to the number of line items per page. Pair with the `offset` parameter to filter your payload to specific sections of line items. You should also set `accumulate=true` to obtain a single list of line items, otherwise you will receive a group of line items per interval of time being sampled. Paginates by all five item types, and will provide lists for all five types.
+Refers to the number of line items per page. You should also set `accumulate=true` to obtain a single list of line items, otherwise you will receive a group of line items per interval of time being sampled. Paginates by all item types, and will provide lists for those types.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="filter" type="string" required="false" %}
