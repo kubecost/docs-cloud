@@ -1,6 +1,6 @@
 # Container Request Right Sizing Recommendation API
 
-{% swagger method="get" path="savings/requestSizingV2" baseUrl="http://<kubecost-address>/model/" summary="Container Request Right Sizing Recommendation API" %}
+{% swagger method="get" path="savings/requestSizingV2" baseUrl="app.kubecost.com/model/" summary="Container Request Right Sizing Recommendation API" %}
 {% swagger-description %}
 The container request right sizing recommendation API provides recommendations for [container resource requests](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/) based on configurable parameters and estimates the savings from implementing those recommendations on a per-container, per-controller level. If the cluster-level resources stay static, then there may not be significant savings from applying Kubecost's recommendations until you reduce your cluster resources. Instead, your idle allocation will increase.
 {% endswagger-description %}

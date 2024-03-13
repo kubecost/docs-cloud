@@ -2,7 +2,7 @@
 
 Kubecost's Cluster Right-Sizing Recommendation API can monitor the resource utilization of your clusters and offer cost-effective right-sizing solutions.
 
-{% swagger method="get" path="/clusterSizingETL" baseUrl="http://<your-kubecost-address>/model/savings" summary="Cluster Right-Sizing Recommendation API" %}
+{% swagger method="get" path="/clusterSizingETL" baseUrl="http://app.kubecost.com/model/savings" summary="Cluster Right-Sizing Recommendation API" %}
 {% swagger-description %}
 
 {% endswagger-description %}

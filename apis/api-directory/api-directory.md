@@ -1,7 +1,7 @@
 # API Directory
 
 {% hint style="info" %}
-Before accessing Kubecost Cloud API endpoints, you must generate an API key value and a personal user token. See our [Accessing API Endpoints] guide for more information.
+Before accessing Kubecost Cloud API endpoints, you must generate an API key value and a personal user token. See our [Accessing API Endpoints](/apis/accessing-endpoints.md) guide for more information.
 {% endhint %}
 
 The following APIs are available in Kubecost Cloud:
