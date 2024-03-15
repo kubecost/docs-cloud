@@ -1,6 +1,6 @@
 # Cloud Cost API
 
-{% swagger method="get" path="query/cloudcost/query" baseUrl="http://app.kubecost.com/model" summary="Cloud Cost API (Querying)" %}
+{% swagger method="get" path="/cloudcost/query" baseUrl="http://app.kubecost.com/query" summary="Cloud Cost API (Querying)" %}
 {% swagger-description %}
 The Cloud Cost API is the preferred way to query for costs and resources related to cloud provider services.
 {% endswagger-description %}
@@ -34,7 +34,7 @@ Filter your results by any category which you can aggregate by, can support mult
 {% endswagger-parameter %}
 
 
-{% swagger method="get" path="/query/cloudcost/totals" baseUrl="http://app.kubecost.com" summary="Cloud Costs API (Total)" %}
+{% swagger method="get" path="/cloudcost/totals" baseUrl="http://app.kubecost.com/query" summary="Cloud Costs API (Total)" %}
 {% swagger-description %}
 The `/totals` endpoint does not aggregate, and accepts only a window and filter, as well as any optional filters, returning a single total cost.
 {% endswagger-description %}

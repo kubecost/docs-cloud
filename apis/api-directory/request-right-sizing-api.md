@@ -1,14 +1,12 @@
 # Container Request Right Sizing Recommendation API
 
-{% swagger method="get" path="savings/requestSizingV2" baseUrl="app.kubecost.com/model/" summary="Container Request Right Sizing Recommendation API" %}
+{% swagger method="get" path="/savings/requestSizingV2" baseUrl="app.kubecost.com/query" summary="Container Request Right Sizing Recommendation API" %}
 {% swagger-description %}
 The container request right sizing recommendation API provides recommendations for [container resource requests](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/) based on configurable parameters and estimates the savings from implementing those recommendations on a per-container, per-controller level. If the cluster-level resources stay static, then there may not be significant savings from applying Kubecost's recommendations until you reduce your cluster resources. Instead, your idle allocation will increase.
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="window" required="true" type="string" %}
-Duration of time over which to calculate usage. Supports days before the current time in the following format:
-
-`3d`. Hourly windows are not currently supported. It's recommended to provide a window greater than `2d`. See the [API Directory](/apis/api-directory/api-directory.md) for more a more detailed explanation of valid inputs to `window`.
+Duration of time over which to query. Accepts multiple formats including units of time, relative time units, and unix timestamps. See the [API Directory](/apis/api-directory/api-directory.md) for more a more detailed explanation of valid inputs to `window`. Hourly windows are not currently supported. It's recommended to provide a window greater than `2d`.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="algorithmCPU" type="string" required="false" %}

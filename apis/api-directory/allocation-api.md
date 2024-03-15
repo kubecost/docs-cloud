@@ -1,6 +1,6 @@
 # Allocation API
 
-{% swagger method="get" path="/query/allocation/query" baseUrl="http://app.kubecost.com" summary="Allocation API (Querying)" %}
+{% swagger method="get" path="/allocation/query" baseUrl="http://app.kubecost.com/query" summary="Allocation API (Querying)" %}
 {% swagger-description %}
 The Allocation API is the preferred way to query for costs and resources allocated to Kubernetes workloads and optionally aggregated by Kubernetes concepts like `namespace`, `controller`, and `label`.
 {% endswagger-description %}
@@ -40,7 +40,7 @@ Filter your results by any category which you can aggregate by, can support mult
 
 
 
-{% swagger method="get" path="/query/allocation/totals" baseUrl="http://app.kubecost.com" summary="Allocation API (Total)" %}
+{% swagger method="get" path="/allocation/totals" baseUrl="http://app.kubecost.com/query" summary="Allocation API (Total)" %}
 {% swagger-description %}
 The Allocation API is the preferred way to query for costs and resources allocated to Kubernetes workloads. The `/totals` endpoint does not aggregate, and accepts only a window and filter, as well as any optional filters, returning a single total cost.
 {% endswagger-description %}

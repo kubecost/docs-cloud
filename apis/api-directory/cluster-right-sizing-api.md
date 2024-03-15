@@ -2,13 +2,13 @@
 
 Kubecost's Cluster Right-Sizing Recommendation API can monitor the resource utilization of your clusters and offer cost-effective right-sizing solutions.
 
-{% swagger method="get" path="/clusterSizingETL" baseUrl="http://app.kubecost.com/model/savings" summary="Cluster Right-Sizing Recommendation API" %}
+{% swagger method="get" path="/savings/clusterSizingETL" baseUrl="http://app.kubecost.com/query" summary="Cluster Right-Sizing Recommendation API" %}
 {% swagger-description %}
 
 {% endswagger-description %}
 
-{% swagger-parameter required="false" in="path" name="range" type="string" %}
-Duration of time to sample for cluster activity in order to provide recommendations. Accepts a numeral value with a unit of time `m` (minutes), `h`, `d`, or `w`. For example, to sample activity for 2 days, use `range=2d`. Also accepts comma-separated RFC3339 date pairs like `2021-01-02T15:04:05Z,2021-02-02T15:04:05Z`; and comma-separated Unix timestamp (seconds) pairs like `1578002645,1580681045`.
+{% swagger-parameter required="false" in="path" name="window" type="string" %}
+Duration of time over which to query. Accepts multiple formats including units of time, relative time units, and unix timestamps. See this section on [using the `window` parameter](/apis/api-directory/api-directory.md#using-the-window-parameter) for more information.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" type="float in the range (0, 1]" name="targetUtilization" %}

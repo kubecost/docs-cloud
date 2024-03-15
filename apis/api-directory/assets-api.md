@@ -1,6 +1,6 @@
 # Assets API
 
-{% swagger method="get" path="query/assets/query" baseUrl="http://app.kubecost.com/model" summary="Assets API (Querying)" %}
+{% swagger method="get" path="/assets/query" baseUrl="http://app.kubecost.com/query" summary="Assets API (Querying)" %}
 {% swagger-description %}
 The Assets API retrieves backing cost data broken down by individual assets in your cluster but also provides various aggregations of this data.
 {% endswagger-description %}
@@ -31,7 +31,7 @@ Filter your results by any category which you can aggregate by, can support mult
 {% endswagger %}
 
 
-{% swagger method="get" path="/query/assets/totals" baseUrl="http://app.kubecost.com" summary="Assets API (Total)" %}
+{% swagger method="get" path="/assets/totals" baseUrl="http://app.kubecost.com/query" summary="Assets API (Total)" %}
 {% swagger-description %}
 The `/totals` endpoint does not aggregate, and accepts only a window and filter, as well as any optional filters, returning a single total cost.
 {% endswagger-description %}
