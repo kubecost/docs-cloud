@@ -22,12 +22,9 @@ The following APIs are available in Kubecost Cloud:
 
 ### Using the `window` parameter
 
-The `window` parameter exists for all monitoring APIs as well as select savings APIs which usually refers to the date range of data for Kubecost to sample. Acceptable formats for using `window` parameter include:
+The `window` parameter exists for all monitoring APIs as well as select savings APIs which refers to the date range of data for Kubecost to sample. Acceptable formats for using `window` parameter include:
 
 * Units of time (ex:"15m", "24h", "7d", "48h", etc.)
-
 * Relative time references (ex: "today", "yesterday", "week", "month", "lastweek", "lastmonth")
-
 * Start and end unix timestamps (ex: "1586822400,1586908800")
-
 * Start and end UTC RFC3339 pairs (ex: "2020-04-01T00:00:00Z,2020-04-03T00:00:00Z")
