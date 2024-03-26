@@ -14,7 +14,8 @@ File type when exporting query. Currently only supports `json`.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="aggregate" type="string" required="false" %}
-Used to consolidate cost model data. Supported values are `invoiceEntityID`, `accountID`, `provider`, `providerID`, `category`, and `service`, as well as `label:<name>`. Passing an empty value for this parameter or none at all returns data by an individual cloud cost. Supports multi-aggregation (aggregation of multiple categories) in a comma separated list, such as `aggregate= provider,service`.
+Used to consolidate cost model data. Supported values are `invoiceEntityID`, `accountID`, `provider`, `providerID`, `category`, and `service`, as well as `label:<name>`. Passing an empty value for this parameter or none at all returns data by an individual cloud cost. Supports multi-aggregation (aggregation of multiple categories) in a comma separated list, such as `aggregate=provider,service`.
+
 
 
 {% endswagger-parameter %}
