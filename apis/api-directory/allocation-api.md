@@ -27,7 +27,8 @@ If `true`, include idle cost (i.e. the cost of the un-allocated assets) as its o
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="idleByNode" type="boolean" required="false" %}
-If `true`, idle allocations are created on a per node basis. Which will result in different values when shared and more idle allocations when split. Default is `false`.
+If `true`, idle allocations are created on a per node basis. Otherwise, idle allocations are created on a per cluster basis. 
+
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="limit" type="int" required="false" %}
