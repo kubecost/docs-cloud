@@ -15,14 +15,10 @@ File type when exporting query. Currently only supports `json`.
 
 {% swagger-parameter in="path" name="aggregate" type="string" required="false" %}
 Used to consolidate cost model data. Supported values are `invoiceEntityID`, `accountID`, `provider`, `providerID`, `category`, and `service`, as well as `label:<name>`. Passing an empty value for this parameter or none at all returns data by an individual cloud cost. Supports multi-aggregation (aggregation of multiple categories) in a comma separated list, such as `aggregate=provider,service`.
-
-
-
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="accumulate" type="boolean" required="false" %}
 If `true`, sum the entire range of time intervals into a single set. Default value is `false`.
-
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="costMetric" required="false" %}
@@ -35,9 +31,8 @@ Refers to the number of line items per page. Currently, only supported together 
 
 {% swagger-parameter in="path" name="filter" type="string" required="false" %}
 Filter your results by any category which you can aggregate by, can support multiple filterable items in the same category in a comma-separated list. For example, to filter results by categories A and B, use `filter=category:categoryA,categoryB` See our [Filter Parameters](/apis/filter-parameters.md) doc for a complete explanation of how to use filters and what categories are supported.
-
-
 {% endswagger-parameter %}
+{% endswagger %}
 
 
 {% swagger method="get" path="/cloudcost/totals" baseUrl="http://app.kubecost.com/query" summary="Cloud Costs API (Total)" %}
@@ -56,7 +51,5 @@ File type when exporting query. Currently only supports `json`.
 
 {% swagger-parameter in="path" name="filter" type="string" required="false" %}
 Filter your results by any category which you can aggregate by, can support multiple filterable items in the same category in a comma-separated list. For example, to filter results by categories A and B, use `filter=category:categoryA,categoryB` See our [Filter Parameters](/apis/filter-parameters.md) doc for a complete explanation of how to use filters and what categories are supported.
-
-
 {% endswagger-parameter %}
 {% endswagger %}

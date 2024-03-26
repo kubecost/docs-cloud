@@ -56,3 +56,4 @@ Order to sort by. Defaults to `descending`. Options are `descending` and `ascend
 {% swagger-parameter in="query" name="includeLabelsAndAnnotations" type="boolean" required="false" %}
 Displays all labels and annotations associated with each container request when set to `true`. Default is `false`.
 {% endswagger-parameter %}
+{% endswagger %}

@@ -30,3 +30,4 @@ Accepts `x86` or `ARM`. Currently, `ARM` is only supported on AWS clusters.
 {% swagger-parameter in="path" type="boolean" name="spotNodes" %}
 Whether you want to allow Spot node types to be included in your recommendation. Default is `false`.
 {% endswagger-parameter %}
+{% endswagger %}
