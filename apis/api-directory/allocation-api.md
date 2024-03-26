@@ -45,7 +45,8 @@ Filter your results by any category which you can aggregate by, can support mult
 
 {% swagger method="get" path="/allocation/totals" baseUrl="http://app.kubecost.com/query" summary="Allocation API (Total)" %}
 {% swagger-description %}
-The Allocation API is the preferred way to query for costs and resources allocated to Kubernetes workloads. The `/totals` endpoint does not aggregate, and accepts only a window and filter, as well as any optional filters, returning a single total cost.
+The Allocation API is the preferred way to query for costs and resources allocated to Kubernetes workloads. The `/totals` endpoint does not aggregate, and accepts only a window and an optional filter, returning a single total cost.
+
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="window" type="string" required="true" %}
