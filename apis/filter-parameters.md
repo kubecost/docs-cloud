@@ -45,7 +45,8 @@ For example, in an Allocation query:
 
 {% code overflow="wrap" %}
 ```
-http://app.kubecost.com/query/allocation/query?window=1d&accumulate=true&aggregate=namespace&filter=cluster!:%22cluster-one%22
+https://api.app.kubecost.com/query/allocation/query?window=1d&accumulate=true&aggregate=namespace&filter=cluster!:%22cluster-one%22
+
 ```
 {% endcode %}
 
