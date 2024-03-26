@@ -14,7 +14,7 @@ File type when exporting query. Currently only supports `json`.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="aggregate" type="string" required="false" %}
-Field by which to aggregate the results. Accepts: `cluster`, `namespace`, `controllerKind`, `controller`, `service`, `node`, `pod`, `label:<name>`, and `annotation:<name>`. Also accepts comma-separated lists for multi-aggregation, like `namespace,label:app`.
+Field by which to aggregate the results. Accepts: `cluster`, `node`, `container`, `controller`, `controllerKind`, `namespace`, `pod`, `providerId`, `service`, `label:<name>`, `annotation:<name>`, `deployment`, `daemonset`, `statefulset`, `job`, `department`, `environment`, `owner`, or `product`. Also accepts comma-separated lists for multi-aggregation, like `namespace,label:app`.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="accumulate" type="boolean" required="false" %}
