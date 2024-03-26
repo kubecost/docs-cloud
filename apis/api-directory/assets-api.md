@@ -18,7 +18,8 @@ Used to consolidate cost model data. Supported values are `account`, `cluster`, 
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="accumulate" type="boolean" required="false" %}
-When set to `false`, this endpoint returns daily time series data vs cumulative data. Default value is `false`.
+If `true`, sum the entire range of time intervals into a single set. Default value is `false`.
+
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="limit" type="int" required="false" %}
