@@ -59,4 +59,4 @@ curl -G 'app.kubecost.com/query/assets/query' \
 
 ## Formal grammar and implementation
 
-To see the filter language's formal grammar and lexer/parser implementation, check out OpenCost's [`pkg/filter21/ast`](https://github.com/opencost/opencost/tree/develop/core/pkg/filter/ast).
+To see the filter language's formal grammar and lexer/parser implementation, check out OpenCost's [`filter package`](https://github.com/opencost/opencost/tree/develop/core/pkg/filter/ast).
