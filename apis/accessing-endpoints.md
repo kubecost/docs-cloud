@@ -30,7 +30,7 @@ You will also need to retrieve your team ID value. This is a value associated wi
 
 ### Step 4: Authenticating
 
-Finally, you need to authenticate your token. Use the following command:
+To verify your token is working, authenticate to the Kubecost Cloud API access route. For example:
 
 ```
 curl --location 'https://api.app.kubecost.com/query/allocation/query?window=7d&aggregate=cluster&idleByNode=false&idle=false' \
