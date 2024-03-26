@@ -53,7 +53,8 @@ https://api.app.kubecost.com/query/allocation/query?window=1d&accumulate=true&ag
 The format is essentially: `<filter field> <filter op> <filter value>`
 
 ```sh
-curl -G 'app.kubecost.com/query/assets/query' \
+curl -G 'api.app.kubecost.com/query/assets/query' \
+
     -d 'window=3d' \
     --data-urlencode 'filter=assetType:"disk"'
 ```
