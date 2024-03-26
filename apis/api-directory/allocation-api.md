@@ -18,7 +18,8 @@ Field by which to aggregate the results. Accepts: `cluster`, `namespace`, `contr
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="accumulate" type="boolean" required="false" %}
-If `true`, sum the entire range of time intervals into a single set. Default value is `false`. Also supports accumulation by specific intervals of time including `hour`, `day`, and `week`. Does not accumulate idle costs, which must be configured separately.
+If `true`, sum the entire range of time intervals into a single set. Default value is `false`. Does not accumulate idle costs, which must be configured separately.
+
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="idle" type="boolean" required="false" %}
