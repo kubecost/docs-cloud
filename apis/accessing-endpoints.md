@@ -28,7 +28,8 @@ You will also need to retrieve your team ID value. This is a value associated wi
 
 ![Team ID](/images/teaminfo.png)
 
-### Step 4: Authenticating
+### Step 4: Using the API endpoints
+
 
 To verify your token is working, authenticate to the Kubecost Cloud API access route. For example:
 
