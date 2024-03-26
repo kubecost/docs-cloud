@@ -31,7 +31,8 @@ If `true`, idle allocations are created on a per node basis. Which will result i
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="limit" type="int" required="false" %}
-Refers to the number of line items per page. You must also set `accumulate=true` to obtain a single list of line items, otherwise you will receive a group of line items per interval of time being sampled.
+Refers to the number of line items per page. Currently, only supported together with `accumulate=true` to obtain a single list of line items.
+
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="filter" type="string" required="false" %}
