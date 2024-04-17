@@ -9,6 +9,10 @@ Kubecost Cloud does not release updates on a scheduled timeline like our self-ho
 * Allocations page: new window and filter selectors, autocomplete now available for filters and aggregations
 * Improved performance for complex queries
 
+### Bug Fixes:
+* Fixed issue where Cluster Status Notifications could not be configured
+* Fixed issue where Contains(Prefix/Suffix) filters for labels would not return the expected results
+
 ## 3/6/24
 
 ### Bug Fixes:
