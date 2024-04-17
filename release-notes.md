@@ -2,6 +2,13 @@
 
 Kubecost Cloud does not release updates on a scheduled timeline like our self-hosted product. Instead, Kubecost Cloud product updates will be documented here periodically.
 
+## 4/16/24
+
+### New Features:
+
+* Allocations page: new window and filter selectors, autocomplete now available for filters and aggregations
+* Improved performance for complex queries
+
 ## 3/6/24
 
 ### Bug Fixes:
