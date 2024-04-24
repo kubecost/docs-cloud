@@ -9,7 +9,6 @@ Kubecost Cloud has select endpoints available for API access. The default API ac
 
 To get started, visit *Settings* in the Kubecost Cloud UI, then under 'My API Key', select *Generate Key*. A key value will generate in a text box with a lifespan of one month. Save this value, as it will not be retrievable later. Only one key can exist at any given time for a given user. Remove the existing key to generate a new one. 
 
-
 ### Step 2: Generating a personal access token
 
 With your generated API key value, run the following command to generate a personal access token:
@@ -30,8 +29,7 @@ You will also need to retrieve your team ID value. This is a value associated wi
 
 ### Step 4: Using the API endpoints
 
-
-To verify your token is working, authenticate to the Kubecost Cloud API access route using the personal access token generated in step 2 and the team ID retrieved in step 3. For example:
+To verify your token is working, authenticate to the Kubecost Cloud API access route using the personal access token generated in step 2 and the team ID retrieved in Step 3. For example:
 
 ```
 curl --location 'https://api.app.kubecost.com/query/allocation/query?window=7d&aggregate=cluster&idleByNode=false&idle=false' \
