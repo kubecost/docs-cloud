@@ -7,7 +7,7 @@ Kubecost Cloud does not release updates on a scheduled timeline like our self-ho
 ### New Features:
 * Cloud Costs page: performance improvements through pagination and more performant API calls
 * Cloud Costs page: autocomplete now available for filters and aggregations
-* Clusters page: Split cluster id and cluster name on clusters page.
+* Clusters page: Split Cluster into Cluster Name and Agent ID
 * Clusters page: Enhance "Add Cluster" and "Update Cluster" modal.
 * Improve Azure cost export downloads to be faster and more resilient to failures
 
