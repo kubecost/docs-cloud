@@ -14,7 +14,7 @@ Kubecost Cloud does not release updates on a scheduled timeline like our self-ho
 
 ### Bug Fixes:
 * Fixed issue where PDF and CSV exports could not be downloaded on the Allocations page
-* Fixed issue finding new kubernetes costs to collections.
+* Fixed issue where costs from the Kubernetes domain could not be added to Collections
 * Fixed issue with clusters page wrapping agent version.
 
 
