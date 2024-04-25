@@ -2,6 +2,21 @@
 
 Kubecost Cloud does not release updates on a scheduled timeline like our self-hosted product. Instead, Kubecost Cloud product updates will be documented here periodically.
 
+## 4/25/24
+
+### New Features:
+* CloudCosts page: performance improvments through pagination and more performant api calls.
+* CloudCosts page: add auto-complete for filters and aggregation by label.
+* Clusters page: Split cluster id and cluster name on clusters page.
+* Clusters page: Enhance "Add Cluster" and "Update Cluster" modal.
+* Enhance azure cloud integrations to have faster and more resilient to failure.
+
+### Bug Fixes:
+* Fixed issue with download csv and pdf options in allocations page.
+* Fixed issue finding new kubernetes costs to collections.
+* Fixed issue with clusters page wrapping agent version.
+
+
 ## 4/16/24
 
 ### New Features:
