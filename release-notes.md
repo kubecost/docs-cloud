@@ -2,7 +2,7 @@
 
 Kubecost Cloud does not release updates on a scheduled timeline like our self-hosted product. Instead, Kubecost Cloud product updates will be documented here periodically.
 
-## 4/25/24
+## 4/26/24
 
 ### New Features:
 * Cloud Costs page: performance improvements through pagination and streamlined API calls
