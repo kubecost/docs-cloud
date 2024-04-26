@@ -14,6 +14,7 @@ Kubecost Cloud does not release updates on a scheduled timeline like our self-ho
 ### Bug Fixes:
 * Fixed issue where costs from the Kubernetes domain could not be added to Collections
 * Fixed issue where the agent version was incorrectly formatted on the Clusters page
+
 ## 4/16/24
 
 ### New Features:
