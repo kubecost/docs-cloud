@@ -6,7 +6,6 @@ Kubecost Cloud does not release updates on a scheduled timeline like our self-ho
 
 ### New Features:
 * Cloud Costs page: performance improvements through pagination and streamlined API calls
-
 * Cloud Costs page: autocomplete now available for filters and aggregations
 * Clusters page: Split Cluster into Cluster Name and Agent ID
 * Clusters page: Enhance "Add Cluster" and "Update Cluster" modals
@@ -16,7 +15,6 @@ Kubecost Cloud does not release updates on a scheduled timeline like our self-ho
 ### Bug Fixes:
 * Fixed issue where costs from the Kubernetes domain could not be added to Collections
 * Fixed issue where the agent version was incorrectly formatted on the Clusters page
-
 
 ## 4/16/24
 
