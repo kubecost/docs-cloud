@@ -2,6 +2,15 @@
 
 Kubecost Cloud does not release updates on a scheduled timeline like our self-hosted product. Instead, Kubecost Cloud product updates will be documented here periodically.
 
+## 4/30/24
+
+### New Features:
+* View spending trends on the Allocations and Cloud Costs Explorer pages
+
+### Bug Fixes:
+* Fixed issue where new Cloud Cost reports could not be saved
+* Fixed issue where Collections exports could not be downloaded
+
 ## 4/26/24
 
 ### New Features:
