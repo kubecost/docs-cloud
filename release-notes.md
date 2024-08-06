@@ -2,6 +2,9 @@
 
 Kubecost Cloud does not release updates on a scheduled timeline like our self-hosted product. Instead, Kubecost Cloud product updates will be documented here periodically.
 
+## 8/6/24
+* Fix agent issue with cloud-agent:0.1.4 to properly respect prometheus resolution on metrics queries.
+
 ## 4/30/24
 
 ### New Features:
