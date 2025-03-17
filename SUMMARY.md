@@ -1,3 +1,5 @@
+# Table of contents
+
 ## Getting Started
 
 * [What is Kubecost Cloud?](README.md)
