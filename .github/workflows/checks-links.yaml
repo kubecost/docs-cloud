@@ -15,9 +15,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Checkout github-actions
+        uses: actions/checkout@v4
+        with:
+          repository: kubecost/github-actions
+          token: ${{ secrets.ACTION_PAT }}
+          path: .github-actions
+          sparse-checkout: lychee-action
+
       - name: Link Checker
         id: lychee
-        uses: kubecost/github-actions/lychee-action@main
+        uses: ./.github-actions/lychee-action
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
