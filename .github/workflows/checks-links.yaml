@@ -15,15 +15,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Checkout github-actions
+        uses: actions/checkout@v4
+        with:
+          repository: kubecost/github-actions
+          token: ${{ secrets.ACTION_PAT }}
+          path: .github-actions
+          sparse-checkout: lychee-action
+
       - name: Link Checker
         id: lychee
-        uses: lycheeverse/lychee-action@v1.8.0
+        uses: ./.github-actions/lychee-action
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
           fail: true
           debug: false
-          args: --verbose --no-progress --base . -E './**/*.md' './**/*.html'
+          args: --verbose --no-progress --exclude-path '.github-actions' --base . -E './**/*.md' './**/*.html'
 
       # - name: Create Issue From File
       #   if: steps.lychee.outputs.exit_code != 0
