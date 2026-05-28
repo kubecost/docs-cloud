@@ -13,10 +13,10 @@ jobs:
   linkChecker:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Checkout github-actions
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: kubecost/github-actions
           token: ${{ secrets.ACTION_PAT }}
